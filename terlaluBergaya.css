@@ -1,0 +1,58 @@
+body {
+    background-color: orange;
+}
+.navbar {
+    background-color: rgb(252, 92, 34); 
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #000000 !important; /* Mengubah warna teks saat dihover */
+}
+
+.nav-link {
+    color: white !important; /* Mengubah warna teks di navbar menjadi putih */
+}
+
+
+.container{
+    width: 50%;
+    height: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    
+}
+
+.konten{
+    text-align: center;
+    /* padding-top: 30px; */
+}
+
+.foto-profil {
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.7);
+    border: 5px solid rgb(65, 113, 225); 
+    background-color: white;
+}
+
+.custom-footer img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.konten h2{
+    padding-top: 20px;
+}
+
+.kotak{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #c0bfbf;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.kotak h5{
+    text-align: center;
+}
